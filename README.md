@@ -1,4 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Schedule Hack(no not really)
+# <img src="public/icons/icon48.png" width="45" align="left"> Schedule Hack(no not really)
 ## Features
 - No more blind registering
 
