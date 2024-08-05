@@ -1,21 +1,12 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Schedule Hack
-
-My Chrome Extension
-
+# <img src="public/icons/icon_48.png" width="45" align="left"> Schedule Hack(no not really)
 ## Features
-
-- Feature 1
-- Feature 2
+- No more blind registering
 
 ## Install
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
-
-## Contribution
-
-Suggestions and pull requests are welcomed!.
+Get the latest version from [releases page]()
 
 ---
 
 This project was bootstrapped with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
-
+(and I actually liked this tool)
