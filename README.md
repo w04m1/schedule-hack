@@ -4,7 +4,7 @@
 
 ## Install
 
-Get the latest version from [releases page]()
+Get the latest version from [releases page](https://github.com/w04m1/schedule-hack/releases)
 
 ---
 
