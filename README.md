@@ -1,10 +1,13 @@
 # <img src="public/icons/icon48.png" width="45" align="left"> Schedule Hack(no not really)
+
+No explanation, otherwise it defeats the purpose :)
+
 ## Features
 - No more blind registering
 
 ## Install
 
-Get the latest version from [releases page](https://github.com/w04m1/schedule-hack/releases)
+Get the latest version from [releases page](https://github.com/w04m1/schedule-hack/releases) (instructions included)
 
 ---
 
