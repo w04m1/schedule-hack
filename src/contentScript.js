@@ -12,8 +12,21 @@ function getTermString() {
   return `${yearString}-${semester}`;
 }
 
+function checkForOption(termString) {
+  const options = document.querySelector(`option[value="${termString}"]`);
+  if (options !== null) {
+    return true;
+  }
+  return false;
+}
+
 function addOption() {
   const termString = getTermString();
+  const res = checkForOption(termString);
+  if (res) {
+    console.log('Option already exists.');
+    return;
+  }
   const options = document.getElementById('felev');
   if (options) {
     options.insertBefore(
