@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Schedule Hack
 // @namespace    https://github.com/w04m1/schedule-hack
-// @version      0.1.0
+// @version      0.1.1
 // @description  Enjoy
 // @author       w04m1
 // @match        https://tanrend.elte.hu/*
@@ -22,8 +22,21 @@
     return `${yearString}-${semester}`;
   }
 
+  function checkForOption(termString) {
+    const options = document.querySelector(`option[value="${termString}"]`);
+    if (options !== null) {
+      return true;
+    }
+    return false;
+  }
+
   function addOption() {
     const termString = getTermString();
+    const res = checkForOption(termString);
+    if (res) {
+      console.log('Option already exists.');
+      return;
+    }
     const options = document.getElementById('felev');
     if (options) {
       options.insertBefore(
